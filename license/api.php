@@ -19,6 +19,10 @@ class API {
 	const STATUS_SITE_INACTIVE = 'site_inactive';
 	const STATUS_DISABLED = 'disabled';
 
+	// Requests lock config.
+	const REQUEST_LOCK_TTL = MINUTE_IN_SECONDS;
+	const REQUEST_LOCK_OPTION_NAME = '_elementor_pro_api_requests_lock';
+
 	/**
 	 * @param array $body_args
 	 *
